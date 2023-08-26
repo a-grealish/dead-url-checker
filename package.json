@@ -1,0 +1,15 @@
+{
+  "name": "dead-url-checker",
+  "version": "1.0.0",
+  "description": "A GitHub Action to check a file for URLs, then check the health of those URLs",
+  "main": "check-links.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@actions/core": "^1.10.0",
+    "extract-urls": "^1.3.4"
+  }
+}
